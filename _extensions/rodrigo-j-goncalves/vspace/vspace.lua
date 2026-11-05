@@ -6,3 +6,7 @@ function vspace(args)
     return pandoc.RawInline('html', '<div style="height: ' .. height .. '"></div>')
   end
 end
+
+return {
+  ["vspace"] = vspace
+}

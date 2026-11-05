@@ -1,4 +1,4 @@
-function vspace_RG(args)
+function vspace(args)
   local height = pandoc.utils.stringify(args[1])
   if quarto.doc.is_format("typst") then
     return pandoc.RawInline('typst', '#v(' .. height .. ')')

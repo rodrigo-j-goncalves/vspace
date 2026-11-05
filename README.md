@@ -1,24 +1,24 @@
-# vspace_RG
+# vspace
 
 Quarto shortcode extension para insertar espacio vertical en presentaciones RevealJS y documentos Typst.
 
 ## Instalación
 
-Copia la carpeta `vspace_RG` en el directorio `_extensions` de tu proyecto:
+Copia la carpeta `vspace` en el directorio `_extensions` de tu proyecto:
 
 ```
 tu-proyecto/
 ├── _extensions/
-│   └── vspace_RG/
+│   └── vspace/
 │       ├── _extension.yml
-│       └── vspace_RG.lua
+│       └── vspace.lua
 └── tu-documento.qmd
 ```
 
 ## Uso
 
 ```markdown
-{{< vspace_RG ALTURA >}}
+{{< vspace ALTURA >}}
 ```
 
 ### RevealJS
@@ -26,9 +26,9 @@ tu-proyecto/
 Acepta cualquier unidad CSS válida (`px`, `em`, `rem`, `vh`, etc.):
 
 ```markdown
-{{< vspace_RG 20px >}}
-{{< vspace_RG 2em >}}
-{{< vspace_RG 5vh >}}
+{{< vspace 20px >}}
+{{< vspace 2em >}}
+{{< vspace 5vh >}}
 ```
 
 ### Typst (PDF)
@@ -36,8 +36,8 @@ Acepta cualquier unidad CSS válida (`px`, `em`, `rem`, `vh`, etc.):
 Acepta cualquier unidad de longitud válida en Typst (`em`, `mm`, `pt`, `cm`):
 
 ```markdown
-{{< vspace_RG 2em >}}
-{{< vspace_RG 10mm >}}
+{{< vspace 2em >}}
+{{< vspace 10mm >}}
 ```
 
 ## Notas

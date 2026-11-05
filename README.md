@@ -1,17 +1,25 @@
-# vspace
+# quarto-vspace
 
 Quarto shortcode extension para insertar espacio vertical en presentaciones RevealJS y documentos Typst.
 
 ## Instalación
 
-Copia la carpeta `vspace` en el directorio `_extensions` de tu proyecto:
+Usa el comando de Quarto:
+
+```bash
+quarto add rodrigo-j-goncalves/vspace
+```
+
+Esto instalará la extensión en el directorio `_extensions` de tu proyecto:
 
 ```
 tu-proyecto/
 ├── _extensions/
-│   └── vspace/
-│       ├── _extension.yml
-│       └── vspace.lua
+│   └── rodrigo-j-goncalves/
+│       └── vspace/
+│           ├── _extension.yml
+│           ├── README.md
+│           └── vspace.lua
 └── tu-documento.qmd
 ```
 

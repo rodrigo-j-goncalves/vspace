@@ -6,4 +6,4 @@ source: rodrigo-j-goncalves/vspace
 quarto-required: ">=1.2.0"
 contributes:
   shortcodes:
-    - vspace.lua
+    - vspace
